@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C27448F2644DBAB0088E5DC /* qrImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C27448E2644DBAB0088E5DC /* qrImage.png */; };
+		2C2C8861272C85F300E68413 /* ARCardsServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2C8860272C85F300E68413 /* ARCardsServiceView.swift */; };
+		2C3C67602674006B00B2B243 /* CarEngineRC1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C675F2674006B00B2B243 /* CarEngineRC1.rcproject */; };
+		2C48248C264DC33300E230E6 /* CarEngineExampleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48248B264DC33300E230E6 /* CarEngineExampleContentView.swift */; };
+		2C48248F264DC40600E230E6 /* StringIdentifyingCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48248E264DC40600E230E6 /* StringIdentifyingCardItem.swift */; };
+		2C4A404626FEA11100D11A8F /* ARCardAuthoringContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A404526FEA11000D11A8F /* ARCardAuthoringContentView.swift */; };
+		2C4C71A02643697F00B462A9 /* ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C719F2643697F00B462A9 /* ExamplesApp.swift */; };
+		2C4C71A22643697F00B462A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C71A12643697F00B462A9 /* ContentView.swift */; };
+		2C4C71A42643698000B462A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C71A32643698000B462A9 /* Assets.xcassets */; };
+		2C4C71A72643698000B462A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C71A62643698000B462A9 /* Preview Assets.xcassets */; };
+		2C4C71B126436A5C00B462A9 /* ARCardsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C71B026436A5C00B462A9 /* ARCardsContentView.swift */; };
+		2C4C71B526436ADC00B462A9 /* ARCardsViewBuilderContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C71B426436ADC00B462A9 /* ARCardsViewBuilderContentView.swift */; };
+		2C5225B1267BF28A0089A062 /* ARCardsJSONLoadingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5225B0267BF28A0089A062 /* ARCardsJSONLoadingContentView.swift */; };
+		2C5225B7267CF7980089A062 /* Tests.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C5225B6267CF7980089A062 /* Tests.json */; };
+		2C554AE22681189B007784D6 /* ARCardsRealityFileLoadingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C554AE12681189B007784D6 /* ARCardsRealityFileLoadingContentView.swift */; };
+		2C554AE4268118E0007784D6 /* FileManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C554AE3268118E0007784D6 /* FileManager+Extensions.swift */; };
+		2C5CA835276B91BB000E0351 /* ARCardsAuthoringControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CA834276B91BB000E0351 /* ARCardsAuthoringControllerView.swift */; };
+		2C9371282644D3C3001932D1 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9371272644D3C3001932D1 /* DownloadsView.swift */; };
+		2CC2A028268BFB8F0091C42B /* ARCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2A027268BFB8F0091C42B /* ARCardListView.swift */; };
+		2CCF965926824D9D00566523 /* ExampleRC.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2CCF965826824D9D00566523 /* ExampleRC.usdz */; };
+		2CCF965B2682535000566523 /* ARCardsUSDZFileLoadingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF965A2682535000566523 /* ARCardsUSDZFileLoadingContentView.swift */; };
+		2CD13EDA2728D717009160C8 /* ExampleRC.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2CD13ED92728D717009160C8 /* ExampleRC.rcproject */; };
+		2CDD909826437D630076150D /* ExampleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD909726437D630076150D /* ExampleCardItem.swift */; };
+		2CDD909B26437E7A0076150D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDD909A26437E7A0076150D /* Tests.swift */; };
+		8A32BAA6273C0F55002364A2 /* FioriAR in Frameworks */ = {isa = PBXBuildFile; productRef = 8A32BAA5273C0F55002364A2 /* FioriAR */; };
+		8ABF02C6274D351200D99971 /* SAPURLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF02C5274D351200D99971 /* SAPURLSession+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C27448E2644DBAB0088E5DC /* qrImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrImage.png; sourceTree = "<group>"; };
+		2C2C8860272C85F300E68413 /* ARCardsServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsServiceView.swift; sourceTree = "<group>"; };
+		2C3C675F2674006B00B2B243 /* CarEngineRC1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = CarEngineRC1.rcproject; sourceTree = "<group>"; };
+		2C48248B264DC33300E230E6 /* CarEngineExampleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarEngineExampleContentView.swift; sourceTree = "<group>"; };
+		2C48248E264DC40600E230E6 /* StringIdentifyingCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringIdentifyingCardItem.swift; sourceTree = "<group>"; };
+		2C4A404526FEA11000D11A8F /* ARCardAuthoringContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardAuthoringContentView.swift; sourceTree = "<group>"; };
+		2C4C719C2643697F00B462A9 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4C719F2643697F00B462A9 /* ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplesApp.swift; sourceTree = "<group>"; };
+		2C4C71A12643697F00B462A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C4C71A32643698000B462A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C4C71A62643698000B462A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C4C71A82643698000B462A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4C71B026436A5C00B462A9 /* ARCardsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsContentView.swift; sourceTree = "<group>"; };
+		2C4C71B426436ADC00B462A9 /* ARCardsViewBuilderContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsViewBuilderContentView.swift; sourceTree = "<group>"; };
+		2C4C71C026436E2400B462A9 /* cloud-sdk-ios-fiori-ar */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "cloud-sdk-ios-fiori-ar"; path = ../..; sourceTree = "<group>"; };
+		2C5225B0267BF28A0089A062 /* ARCardsJSONLoadingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsJSONLoadingContentView.swift; sourceTree = "<group>"; };
+		2C5225B6267CF7980089A062 /* Tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tests.json; sourceTree = "<group>"; };
+		2C554AE12681189B007784D6 /* ARCardsRealityFileLoadingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsRealityFileLoadingContentView.swift; sourceTree = "<group>"; };
+		2C554AE3268118E0007784D6 /* FileManager+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extensions.swift"; sourceTree = "<group>"; };
+		2C5CA834276B91BB000E0351 /* ARCardsAuthoringControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsAuthoringControllerView.swift; sourceTree = "<group>"; };
+		2C9371272644D3C3001932D1 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		2CC2A027268BFB8F0091C42B /* ARCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardListView.swift; sourceTree = "<group>"; };
+		2CCF965826824D9D00566523 /* ExampleRC.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ExampleRC.usdz; sourceTree = "<group>"; };
+		2CCF965A2682535000566523 /* ARCardsUSDZFileLoadingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCardsUSDZFileLoadingContentView.swift; sourceTree = "<group>"; };
+		2CD13ED92728D717009160C8 /* ExampleRC.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = ExampleRC.rcproject; sourceTree = "<group>"; };
+		2CDD909726437D630076150D /* ExampleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCardItem.swift; sourceTree = "<group>"; };
+		2CDD909A26437E7A0076150D /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8ABF02C5274D351200D99971 /* SAPURLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SAPURLSession+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4C71992643697F00B462A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A32BAA6273C0F55002364A2 /* FioriAR in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C27448D2644DB890088E5DC /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				2C2744912644DDE10088E5DC /* Images */,
+				2CDD909F264382D40076150D /* RealityComposer */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		2C2744912644DDE10088E5DC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2C27448E2644DBAB0088E5DC /* qrImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2C2744932644DE040088E5DC /* CardContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C71B426436ADC00B462A9 /* ARCardsViewBuilderContentView.swift */,
+				2C4C71B026436A5C00B462A9 /* ARCardsContentView.swift */,
+				2C48248B264DC33300E230E6 /* CarEngineExampleContentView.swift */,
+				2C5225B0267BF28A0089A062 /* ARCardsJSONLoadingContentView.swift */,
+				2C554AE12681189B007784D6 /* ARCardsRealityFileLoadingContentView.swift */,
+				2CCF965A2682535000566523 /* ARCardsUSDZFileLoadingContentView.swift */,
+				2CC2A027268BFB8F0091C42B /* ARCardListView.swift */,
+				2C4A404526FEA11000D11A8F /* ARCardAuthoringContentView.swift */,
+				2C2C8860272C85F300E68413 /* ARCardsServiceView.swift */,
+				2C5CA834276B91BB000E0351 /* ARCardsAuthoringControllerView.swift */,
+			);
+			path = CardContentViews;
+			sourceTree = "<group>";
+		};
+		2C2744942644DE210088E5DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CDD909726437D630076150D /* ExampleCardItem.swift */,
+				2C48248E264DC40600E230E6 /* StringIdentifyingCardItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C2D2BCA2645BF5000A1E1B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C5225B6267CF7980089A062 /* Tests.json */,
+				2CDD909A26437E7A0076150D /* Tests.swift */,
+				2C9371272644D3C3001932D1 /* DownloadsView.swift */,
+				2C554AE3268118E0007784D6 /* FileManager+Extensions.swift */,
+				8ABF02C5274D351200D99971 /* SAPURLSession+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C4C71932643697F00B462A9 = {
+			isa = PBXGroup;
+			children = (
+				2C4C719E2643697F00B462A9 /* Examples */,
+				2C4C71BF26436E2400B462A9 /* Frameworks */,
+				2C4C719D2643697F00B462A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4C719D2643697F00B462A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C719C2643697F00B462A9 /* Examples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4C719E2643697F00B462A9 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C71AF26436A4500B462A9 /* ARCards */,
+				2C4C719F2643697F00B462A9 /* ExamplesApp.swift */,
+				2C4C71A12643697F00B462A9 /* ContentView.swift */,
+				2C4C71A32643698000B462A9 /* Assets.xcassets */,
+				2C4C71A82643698000B462A9 /* Info.plist */,
+				2C4C71A52643698000B462A9 /* Preview Content */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		2C4C71A52643698000B462A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C71A62643698000B462A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C4C71AF26436A4500B462A9 /* ARCards */ = {
+			isa = PBXGroup;
+			children = (
+				2C2D2BCA2645BF5000A1E1B1 /* Utils */,
+				2C2744942644DE210088E5DC /* Models */,
+				2C2744932644DE040088E5DC /* CardContentViews */,
+				2C27448D2644DB890088E5DC /* Media */,
+			);
+			path = ARCards;
+			sourceTree = "<group>";
+		};
+		2C4C71BF26436E2400B462A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C71C026436E2400B462A9 /* cloud-sdk-ios-fiori-ar */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CDD909F264382D40076150D /* RealityComposer */ = {
+			isa = PBXGroup;
+			children = (
+				2CD13ED92728D717009160C8 /* ExampleRC.rcproject */,
+				2CCF965826824D9D00566523 /* ExampleRC.usdz */,
+				2C3C675F2674006B00B2B243 /* CarEngineRC1.rcproject */,
+			);
+			path = RealityComposer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4C719B2643697F00B462A9 /* Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4C71AB2643698000B462A9 /* Build configuration list for PBXNativeTarget "Examples" */;
+			buildPhases = (
+				2C4C71982643697F00B462A9 /* Sources */,
+				2C4C71992643697F00B462A9 /* Frameworks */,
+				2C4C719A2643697F00B462A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Examples;
+			packageProductDependencies = (
+				8A32BAA5273C0F55002364A2 /* FioriAR */,
+			);
+			productName = Examples;
+			productReference = 2C4C719C2643697F00B462A9 /* Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4C71942643697F00B462A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2C4C719B2643697F00B462A9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2C4C71972643697F00B462A9 /* Build configuration list for PBXProject "Examples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4C71932643697F00B462A9;
+			productRefGroup = 2C4C719D2643697F00B462A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4C719B2643697F00B462A9 /* Examples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4C719A2643697F00B462A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4C71A72643698000B462A9 /* Preview Assets.xcassets in Resources */,
+				2C5225B7267CF7980089A062 /* Tests.json in Resources */,
+				2C4C71A42643698000B462A9 /* Assets.xcassets in Resources */,
+				2CCF965926824D9D00566523 /* ExampleRC.usdz in Resources */,
+				2C27448F2644DBAB0088E5DC /* qrImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4C71982643697F00B462A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4A404626FEA11100D11A8F /* ARCardAuthoringContentView.swift in Sources */,
+				2C3C67602674006B00B2B243 /* CarEngineRC1.rcproject in Sources */,
+				2C554AE4268118E0007784D6 /* FileManager+Extensions.swift in Sources */,
+				2C4C71A22643697F00B462A9 /* ContentView.swift in Sources */,
+				2CC2A028268BFB8F0091C42B /* ARCardListView.swift in Sources */,
+				2CCF965B2682535000566523 /* ARCardsUSDZFileLoadingContentView.swift in Sources */,
+				2C554AE22681189B007784D6 /* ARCardsRealityFileLoadingContentView.swift in Sources */,
+				2C4C71B126436A5C00B462A9 /* ARCardsContentView.swift in Sources */,
+				2CD13EDA2728D717009160C8 /* ExampleRC.rcproject in Sources */,
+				2C5225B1267BF28A0089A062 /* ARCardsJSONLoadingContentView.swift in Sources */,
+				2C48248C264DC33300E230E6 /* CarEngineExampleContentView.swift in Sources */,
+				2C4C71B526436ADC00B462A9 /* ARCardsViewBuilderContentView.swift in Sources */,
+				2C4C71A02643697F00B462A9 /* ExamplesApp.swift in Sources */,
+				2C9371282644D3C3001932D1 /* DownloadsView.swift in Sources */,
+				2C48248F264DC40600E230E6 /* StringIdentifyingCardItem.swift in Sources */,
+				8ABF02C6274D351200D99971 /* SAPURLSession+Extension.swift in Sources */,
+				2CDD909826437D630076150D /* ExampleCardItem.swift in Sources */,
+				2CDD909B26437E7A0076150D /* Tests.swift in Sources */,
+				2C2C8861272C85F300E68413 /* ARCardsServiceView.swift in Sources */,
+				2C5CA835276B91BB000E0351 /* ARCardsAuthoringControllerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C4C71A92643698000B462A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C4C71AA2643698000B462A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4C71AC2643698000B462A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "\"Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = J26P8U5TZ4;
+				DYLIB_INSTALL_NAME_BASE = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sap.cloud-sdk-ios-fiori-ar.Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C4C71AD2643698000B462A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_ASSET_PATHS = "\"Examples/Preview Content\"";
+				DEVELOPMENT_TEAM = J26P8U5TZ4;
+				DYLIB_INSTALL_NAME_BASE = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sap.cloud-sdk-ios-fiori-ar.Examples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4C71972643697F00B462A9 /* Build configuration list for PBXProject "Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C71A92643698000B462A9 /* Debug */,
+				2C4C71AA2643698000B462A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4C71AB2643698000B462A9 /* Build configuration list for PBXNativeTarget "Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C71AC2643698000B462A9 /* Debug */,
+				2C4C71AD2643698000B462A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A32BAA5273C0F55002364A2 /* FioriAR */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FioriAR;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C4C71942643697F00B462A9 /* Project object */;
+}
